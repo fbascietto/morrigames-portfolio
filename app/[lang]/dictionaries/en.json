@@ -1,0 +1,87 @@
+{
+  "home": {
+    "title": "Morrigames",
+    "description": {
+      "part1": "Hi! This is my Game Development journal & portfolio."
+    },
+    "tabs": {
+      "intro": "Home",
+      "about": "About me",
+      "games": "Games",
+      "contact": "Contact"
+    }
+  },
+  "about": {
+    "header": {
+      "charname": "Character Name",
+      "class_level_title": "Class & Level",
+      "class_level_value": "Game Dev 1",
+      "background_title": "Background",
+      "background_value": "Software Engineer",
+      "name_title": "Player name",
+      "name_value": "Francisco"
+    },
+    "cards": {
+      "first": {
+        "title": "Battle-Hardened Developer",
+        "description": "With over 6 years of experience in software development, I've faced countless technical challenges at big tech companies, always delivering scalable and reliable solutions."
+      },
+      "second": {
+        "title": "Master of Stories",
+        "description": "A lifelong storyteller, I bring a passion for crafting narratives rooted in my love for tabletop RPGs like Dungeons & Dragons. I believe great stories make unforgettable games."
+      },
+      "third": {
+        "title": "Challenge Slayer",
+        "description": "I’m driven by the thrill of overcoming obstacles. Whether it’s coding or problem-solving, I tackle challenges head-on with a proactive mindset and relentless proactivity."
+      },
+      "fourth": {
+        "title": "Eternal Learner",
+        "description": "As a tech enthusiast, I’m always eager to master new tools and technologies to push the boundaries of game development and bring my creative visions to life."
+      }
+    }
+  },
+  "games": {
+    "title": "Games",
+    "description": "In order to set sail in this daring journey, I have trained by re-tell great epics from the past...",
+    "items": {
+      "pong": {
+        "title": "Pong",
+        "description": "Pong is one of the first computer games that ever created, this simple \"tennis like\" game features two paddles and a ball, the goal is to defeat your opponent by scoring more goals. This implementation is made with the Godot engine in one afternoon with the aim of learning the ropes of the Engine."
+      },
+      "arknoid": {
+        "title": "Arkanoid",
+        "description": "Arkanoid is a 1986 block breaker arcade game. Controlling a paddle-like craft, the player is tasked with clearing a formation of colorful blocks by deflecting a ball towards it without letting the ball leave the bottom edge of the playfield. This Godot implementation has only a few simple levels and 3 power ups."
+      },
+      "invaders": {
+        "title": "Space Invaders",
+        "description": "Space Invaders is a fixed shooter in which the player moves a laser cannon horizontally across the bottom of the screen and fires at aliens overhead. The goal is simple: to eliminate all of the aliens by shooting them."
+      },
+      "asteroids": {
+        "title": "Asteroids",
+        "description": "Asteroids is a space-themed multidirectional shooter arcade video released in November 1979 by Atari, Inc. The player controls a single spaceship in an asteroid field which is periodically traversed by flying saucers."
+      }
+    },
+    "action": "View Project"
+  },
+  "contact": {
+    "title": "Gather your party before venturing forth",
+    "items": {
+      "discord": {
+        "title": "Discord",
+        "description": "Ping me on Discord, both for game jamming or for sharing some games!"
+      },
+      "email": {
+        "title": "Email",
+        "description": "Send me an email, should you favor a more async approach."
+      },
+      "linkedin": {
+        "title": "Linkedin",
+        "description": "Check my professional profile as a Software Engineer."
+      },
+      "git": {
+        "title": "Github",
+        "description": "Check out my game dev first steps."
+      }
+    }
+  }
+}

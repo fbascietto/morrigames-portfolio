@@ -1,0 +1,87 @@
+{
+  "home": {
+    "title": "Morrigames",
+    "description": {
+      "part1": "Hola! Esta es mi bitácora de Game Development así como también mi portfolio."
+    },
+    "tabs": {
+      "intro": "Home",
+      "about": "Acerca de",
+      "games": "Juegos",
+      "contact": "Contacto"
+    }
+  },
+  "about": {
+    "header": {
+      "charname": "Nombre del Personaje",
+      "class_level_title": "Clase y Nivel",
+      "class_level_value": "Desarrollador de Juegos 1",
+      "background_title": "Fondo",
+      "background_value": "Ingeniero de Software",
+      "name_title": "Nombre del jugador",
+      "name_value": "Francisco"
+    },
+    "cards": {
+      "first": {
+        "title": "Desarrollador Experimentado",
+        "description": "Con más de 6 años de experiencia en desarrollo de software, he enfrentado innumerables desafíos técnicos en grandes empresas de tecnología, siempre entregando soluciones escalables y confiables."
+      },
+      "second": {
+        "title": "Maestro de Historias",
+        "description": "Un narrador de toda la vida, traigo una pasión por crear narrativas arraigadas en mi amor por los juegos de rol de mesa como Dungeons & Dragons. Creo que grandes historias hacen juegos inolvidables."
+      },
+      "third": {
+        "title": "Vencedor de Desafíos",
+        "description": "Me impulsa la emoción de superar obstáculos. Ya sea programando o resolviendo problemas, enfrento los desafíos con una mentalidad proactiva y una imparable proactividad."
+      },
+      "fourth": {
+        "title": "Aprendiz Eterno",
+        "description": "Como entusiasta de la tecnología, siempre estoy dispuesto a dominar nuevas herramientas y tecnologías para expandir los límites del desarrollo de juegos y dar vida a mis visiones creativas."
+      }
+    }
+  },
+  "games": {
+    "title": "Juegos",
+    "description": "Para emprender este viaje, me he entrenado recontando grandes epopeyas del pasado...",
+    "items": {
+      "pong": {
+        "title": "Pong",
+        "description": "Pong es uno de los primeros juegos de computadora creados, este simple juego tipo \"tenis\" presenta dos paletas y una bola, el objetivo es derrotar a tu oponente anotando más goles. Esta implementación está hecha con el motor Godot en una tarde con el objetivo de aprender los fundamentos del motor."
+      },
+      "arknoid": {
+        "title": "Arkanoid",
+        "description": "Arkanoid es un juego de arcade de rompebloques de 1986. Controlando una nave en forma de paleta, el jugador debe despejar una formación de bloques coloridos al golpear una pelota contra ellos sin dejar que salga del borde inferior del campo de juego. Esta implementación en Godot tiene solo unos pocos niveles simples y 3 potenciadores."
+      },
+      "invaders": {
+        "title": "Space Invaders",
+        "description": "Space Invaders es un juego de disparos fijo en el que el jugador mueve un cañón láser horizontalmente en la parte inferior de la pantalla y dispara a los alienígenas. El objetivo es simple: eliminar a todos los alienígenas disparándoles."
+      },
+      "asteroids": {
+        "title": "Asteroids",
+        "description": "Asteroids es un videojuego de disparos multidireccional de temática espacial lanzado en noviembre de 1979 por Atari, Inc. El jugador controla una nave espacial en un campo de asteroides que es atravesado periódicamente por platillos voladores."
+      }
+    },
+    "action": "Ver Proyecto"
+  },
+  "contact": {
+    "title": "Gather your party before venturing forth",
+    "items": {
+      "discord": {
+        "title": "Discord",
+        "description": "Contáctame en Discord, ya sea para jams de juegos o para compartir algunos juegos!"
+      },
+      "email": {
+        "title": "Email",
+        "description": "Envíame un correo electrónico si prefieres un enfoque más asincrónico."
+      },
+      "linkedin": {
+        "title": "Linkedin",
+        "description": "Consulta mi perfil profesional como Ingeniero de Software."
+      },
+      "git": {
+        "title": "Github",
+        "description": "Mira mis primeros pasos como desarrollador de videojuegos juegos."
+      }
+    }
+  }
+}
