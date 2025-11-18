@@ -1,16 +1,44 @@
 import Image from "next/image";
 
 const D20Icon = () => (
-  <Image src="/icosahedron.png" alt="Dice Icon" width={38} height={38} />
+  <Image 
+    src="/icosahedron.png" 
+    alt="Dice Icon" 
+    width={56} 
+    height={56}
+    className="object-contain"
+    unoptimized
+  />
 );
 const SwordIcon = () => (
-  <Image src="/sword.png" alt="Sword Icon" width={38} height={38} />
+  <Image 
+    src="/sword.png" 
+    alt="Sword Icon" 
+    width={56} 
+    height={56}
+    className="object-contain"
+    unoptimized
+  />
 );
 const BookIcon = () => (
-  <Image src="/book.png" alt="Book Icon" width={38} height={38} />
+  <Image 
+    src="/book.png" 
+    alt="Book Icon" 
+    width={56} 
+    height={56}
+    className="object-contain"
+    unoptimized
+  />
 );
 const WizardIcon = () => (
-  <Image src="/wizard.png" alt="Wizard Icon" width={40} height={40} />
+  <Image 
+    src="/wizard.png" 
+    alt="Wizard Icon" 
+    width={56} 
+    height={56}
+    className="object-contain"
+    unoptimized
+  />
 );
 
 const features = ({ content }: { content: Content["about"]["cards"] }) => [
@@ -40,11 +68,11 @@ const Feats = ({ content }: { content: Content["about"]["cards"] }) => {
   return features({ content }).map((feature) => (
     <div key={feature.name} className="relative pl-[2rem] lg:pl-[3rem]">
       <div className="p-4 border border-gray-300 rounded-lg">
-        <div className="flex">
-          <div className="flex h-16 w-16 items-center justify-center rounded-lg">
+        <div className="flex items-center">
+          <div className="flex h-20 w-20 items-center justify-center rounded-lg bg-slate-100 flex-shrink-0">
             <feature.icon aria-hidden="true" />
           </div>
-          <div className="flex flex-col align-middle justify-center ml-8">
+          <div className="flex flex-col justify-center ml-8">
             <dt className="text-base font-semibold leading-7 text-gray-900">
               {feature.name}
             </dt>
